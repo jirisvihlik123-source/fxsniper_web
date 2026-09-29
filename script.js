@@ -1,3 +1,20 @@
+// Always start from the first slide after a reload/refresh.
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
+function forcePageTop() {
+  if (window.location.hash) {
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+  window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+}
+
+forcePageTop();
+window.addEventListener('pageshow', () => requestAnimationFrame(forcePageTop));
+window.addEventListener('load', () => {
+  requestAnimationFrame(forcePageTop);
+  setTimeout(forcePageTop, 80);
+});
+
 const revealEls = document.querySelectorAll('.reveal');
 const revealObs = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -241,13 +258,35 @@ async function loadResults() {
 loadResults();
 
 const shuffleWeek = document.getElementById('shuffle-week');
-if (shuffleWeek) shuffleWeek.addEventListener('click', chooseRandomWeek);
+if (shuffleWeek) {
+  let lastShuffleAt = 0;
+  const shuffleNow = (event) => {
+    const now = Date.now();
+    if (now - lastShuffleAt < 350) return;
+    lastShuffleAt = now;
+    if (event) event.preventDefault();
+    chooseRandomWeek();
+  };
 
-// Lead form: static GitHub Pages -> email forwarding endpoint.
-// We keep the visitor on the site and show a readable fallback if the service is unavailable.
+  shuffleWeek.addEventListener('click', shuffleNow);
+  shuffleWeek.addEventListener('pointerup', (event) => {
+    if (event.pointerType === 'touch' || event.pointerType === 'pen') shuffleNow(event);
+  });
+}
+
+// Lead form: GitHub Pages is static, so automatic email delivery uses Web3Forms.
+// Paste the public Web3Forms access key into CONTACT_ACCESS_KEY below.
+// Until a key is configured, the button falls back to the visitor's mail app.
+const CONTACT_ACCESS_KEY = 'e40b8946-655d-4157-9a0f-67bc95faf26b';
 const leadForm = document.getElementById('lead-form');
 const formStatus = document.getElementById('form-status');
 const leadSubmit = document.getElementById('lead-submit');
+
+function openLeadMailClient(email) {
+  const subject = encodeURIComponent('Zájem o FX Sniper');
+  const body = encodeURIComponent(`Dobrý den, mám zájem o FX Sniper.\\n\\nMůj kontaktní e-mail: ${email}`);
+  window.location.href = `mailto:aifxsniper@gmail.com?subject=${subject}&body=${body}`;
+}
 
 if (leadForm && formStatus) {
   leadForm.addEventListener('submit', async (event) => {
@@ -257,9 +296,17 @@ if (leadForm && formStatus) {
     const honey = document.getElementById('lead-honey').value.trim();
     if (honey) return;
 
-    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
+    if (!email || !/^\\S+@\\S+\\.\\S+$/.test(email)) {
       formStatus.textContent = 'Zadej platný e-mail.';
       formStatus.className = 'form-status error';
+      return;
+    }
+
+    // No key yet: use a working direct-email fallback instead of a dead error state.
+    if (!CONTACT_ACCESS_KEY) {
+      formStatus.textContent = 'Otevírám e-mail…';
+      formStatus.className = 'form-status';
+      openLeadMailClient(email);
       return;
     }
 
@@ -267,27 +314,28 @@ if (leadForm && formStatus) {
     formStatus.className = 'form-status';
     if (leadSubmit) leadSubmit.disabled = true;
 
-    const payload = new URLSearchParams({
-      _domain: window.location.hostname || 'jirisvihlik123-source.github.io',
-      _to: 'aifxsniper@gmail.com',
-      _subject: 'Nový zájem o FX Sniper',
-      _replyto: email,
-      email: email,
-      message: 'Návštěvník webu má zájem o FX Sniper a zanechal kontaktní e-mail.'
-    });
-
     try {
-      const response = await fetch('https://api.formsubmit.cc/submit', {
+      const payload = {
+        access_key: CONTACT_ACCESS_KEY,
+        subject: 'Nový zájem o FX Sniper',
+        from_name: 'FX Sniper web',
+        email,
+        message: `Návštěvník webu má zájem o FX Sniper. Kontaktní e-mail: ${email}`,
+        botcheck: ''
+      };
+
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
-        body: payload.toString()
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
       });
 
-      let data = {};
-      try { data = await response.json(); } catch (_) {}
-
-      if (!response.ok || data.error) {
-        throw new Error(data.error || `HTTP ${response.status}`);
+      const data = await response.json();
+      if (!response.ok || data.success === false) {
+        throw new Error(data.message || `HTTP ${response.status}`);
       }
 
       leadForm.reset();
@@ -295,8 +343,9 @@ if (leadForm && formStatus) {
       formStatus.className = 'form-status ok';
     } catch (error) {
       console.error('Lead submit failed:', error);
-      formStatus.innerHTML = 'Odeslání je teď nedostupné. <a href="mailto:aifxsniper@gmail.com?subject=Zájem%20o%20FX%20Sniper">Napiš nám přímo.</a>';
+      formStatus.textContent = 'Automatické odeslání selhalo. Otevírám e-mail…';
       formStatus.className = 'form-status error';
+      setTimeout(() => openLeadMailClient(email), 350);
     } finally {
       if (leadSubmit) leadSubmit.disabled = false;
     }
