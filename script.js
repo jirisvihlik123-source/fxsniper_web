@@ -281,6 +281,14 @@ const CONTACT_ACCESS_KEY = 'e40b8946-655d-4157-9a0f-67bc95faf26b';
 const leadForm = document.getElementById('lead-form');
 const formStatus = document.getElementById('form-status');
 const leadSubmit = document.getElementById('lead-submit');
+const leadEmailInput = document.getElementById('lead-email');
+
+if (leadEmailInput && formStatus) {
+  leadEmailInput.addEventListener('input', () => {
+    formStatus.textContent = '';
+    formStatus.className = 'form-status';
+  });
+}
 
 function openLeadMailClient(email) {
   const subject = encodeURIComponent('Zájem o FX Sniper');
@@ -292,13 +300,18 @@ if (leadForm && formStatus) {
   leadForm.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    const email = document.getElementById('lead-email').value.trim();
+    const emailInput = document.getElementById('lead-email');
+    const email = emailInput ? emailInput.value.trim() : '';
     const honey = document.getElementById('lead-honey').value.trim();
     if (honey) return;
 
-    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
+    // Use native HTML5 e-mail validation. This avoids browser/escaping
+    // differences from a hand-written RegExp and accepts normal addresses
+    // such as name@gmail.com consistently on desktop and mobile.
+    if (!emailInput || !email || !emailInput.checkValidity()) {
       formStatus.textContent = 'Zadej platný e-mail.';
       formStatus.className = 'form-status error';
+      if (emailInput) emailInput.reportValidity();
       return;
     }
 
