@@ -1,0 +1,2459 @@
+{
+  "year": 2025,
+  "year_stats": {
+    "trades": 259,
+    "net_r": 69.97360890707975,
+    "pf": 1.7866887133402676,
+    "max_dd_r": 6.3487413394743655,
+    "positive_rate": 0.4864864864864865,
+    "tp": 72,
+    "sl": 125,
+    "time": 62
+  },
+  "pair_stats": {
+    "EURUSD": {
+      "trades": 40,
+      "net_r": 15.257599280636457,
+      "pf": 2.189843912310776,
+      "max_dd_r": 2.7475369831311234,
+      "positive_rate": 0.525,
+      "tp": 16,
+      "sl": 17,
+      "time": 7
+    },
+    "GBPJPY": {
+      "trades": 88,
+      "net_r": 30.916174948266097,
+      "pf": 1.9935308952140334,
+      "max_dd_r": 5.636132968585528,
+      "positive_rate": 0.48863636363636365,
+      "tp": 22,
+      "sl": 42,
+      "time": 24
+    },
+    "USDJPY": {
+      "trades": 131,
+      "net_r": 23.799834678177177,
+      "pf": 1.5288107240703595,
+      "max_dd_r": 7.124229045081382,
+      "positive_rate": 0.4732824427480916,
+      "tp": 34,
+      "sl": 66,
+      "time": 31
+    }
+  },
+  "monthly": [
+    {
+      "month": "2025-01",
+      "trades": 25,
+      "net_r": 6.801639410198542,
+      "wr": 0.52
+    },
+    {
+      "month": "2025-02",
+      "trades": 22,
+      "net_r": 3.820084065605053,
+      "wr": 0.5
+    },
+    {
+      "month": "2025-03",
+      "trades": 24,
+      "net_r": 12.201487423642211,
+      "wr": 0.5
+    },
+    {
+      "month": "2025-04",
+      "trades": 26,
+      "net_r": -2.5771283515910217,
+      "wr": 0.3846153846153846
+    },
+    {
+      "month": "2025-05",
+      "trades": 23,
+      "net_r": 6.942932959210199,
+      "wr": 0.4782608695652174
+    },
+    {
+      "month": "2025-06",
+      "trades": 16,
+      "net_r": 12.447521646652802,
+      "wr": 0.6875
+    },
+    {
+      "month": "2025-07",
+      "trades": 18,
+      "net_r": 10.740948697827966,
+      "wr": 0.6111111111111112
+    },
+    {
+      "month": "2025-08",
+      "trades": 24,
+      "net_r": 7.48847101610998,
+      "wr": 0.4166666666666667
+    },
+    {
+      "month": "2025-09",
+      "trades": 15,
+      "net_r": 5.802965965331497,
+      "wr": 0.5333333333333333
+    },
+    {
+      "month": "2025-10",
+      "trades": 21,
+      "net_r": -0.3699716453729158,
+      "wr": 0.3809523809523809
+    },
+    {
+      "month": "2025-11",
+      "trades": 25,
+      "net_r": 3.877592658477021,
+      "wr": 0.48
+    },
+    {
+      "month": "2025-12",
+      "trades": 20,
+      "net_r": 2.7970650609884014,
+      "wr": 0.45
+    }
+  ],
+  "trades": [
+    {
+      "entry_ts": "2025-01-02 10:50:00",
+      "exit_ts": "2025-01-02 12:07:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 2.270806556865141,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-02 18:20:00",
+      "exit_ts": "2025-01-02 21:19:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.0762307600348403,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-01-03 12:45:00",
+      "exit_ts": "2025-01-03 18:44:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.6183969660928634,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-03 17:15:00",
+      "exit_ts": "2025-01-03 19:01:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.874433174830392,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-06 16:35:00",
+      "exit_ts": "2025-01-06 16:42:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.6882285095420336,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-06 17:20:00",
+      "exit_ts": "2025-01-06 23:19:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.0899773654085445,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-01-07 10:30:00",
+      "exit_ts": "2025-01-07 11:00:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7986614855130126,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-07 11:05:00",
+      "exit_ts": "2025-01-07 11:19:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.536199400826468,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-01-08 17:05:00",
+      "exit_ts": "2025-01-08 23:04:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.609878875663017,
+      "outcome": "TIME",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-08 17:20:00",
+      "exit_ts": "2025-01-08 20:19:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.3998958997399912,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-01-09 17:25:00",
+      "exit_ts": "2025-01-09 17:44:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7891065269707893,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-09 17:55:00",
+      "exit_ts": "2025-01-09 18:05:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.805021654853713,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-13 16:55:00",
+      "exit_ts": "2025-01-13 17:11:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.731364340909046,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-14 16:35:00",
+      "exit_ts": "2025-01-14 17:39:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7109919571045679,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-01-15 17:50:00",
+      "exit_ts": "2025-01-15 23:49:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.1421962517330278,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-01-16 10:35:00",
+      "exit_ts": "2025-01-16 10:37:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9461481695378988,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-16 10:50:00",
+      "exit_ts": "2025-01-16 14:53:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5334714258238274,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-01-17 17:15:00",
+      "exit_ts": "2025-01-17 17:48:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1430789133247026,
+      "outcome": "TP",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-01-20 12:05:00",
+      "exit_ts": "2025-01-20 15:31:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 3.028592188365689,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-01-21 11:05:00",
+      "exit_ts": "2025-01-21 14:04:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.0215927316897389,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-23 10:35:00",
+      "exit_ts": "2025-01-23 10:41:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8781592547298006,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-01-23 17:25:00",
+      "exit_ts": "2025-01-23 17:57:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8571434473438249,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-27 17:35:00",
+      "exit_ts": "2025-01-27 18:27:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.89950811333338,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-01-27 20:20:00",
+      "exit_ts": "2025-01-28 01:24:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9290055865541686,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-01-30 16:35:00",
+      "exit_ts": "2025-01-30 17:06:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.6985592315901444,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-02-03 17:25:00",
+      "exit_ts": "2025-02-03 20:24:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.142893959025123,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-03 17:25:00",
+      "exit_ts": "2025-02-03 23:24:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.4316530643204332,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-04 11:05:00",
+      "exit_ts": "2025-02-04 13:17:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7393871648378482,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-05 10:40:00",
+      "exit_ts": "2025-02-05 16:39:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.3334979701425607,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-02-06 18:10:00",
+      "exit_ts": "2025-02-06 21:00:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8761974496205638,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-07 10:30:00",
+      "exit_ts": "2025-02-07 12:18:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.7941994373689327,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-07 11:10:00",
+      "exit_ts": "2025-02-07 11:40:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8274528751974298,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-07 16:35:00",
+      "exit_ts": "2025-02-07 17:54:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.900677506775044,
+      "outcome": "TP",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-02-10 17:35:00",
+      "exit_ts": "2025-02-10 23:34:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.0406803208288047,
+      "outcome": "TIME",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-10 19:10:00",
+      "exit_ts": "2025-02-10 22:09:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.201377042138609,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-11 10:40:00",
+      "exit_ts": "2025-02-11 13:04:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 3.071872320049488,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-02-11 10:55:00",
+      "exit_ts": "2025-02-11 15:10:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.7284792417199443,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-12 18:15:00",
+      "exit_ts": "2025-02-12 19:21:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5699216855362375,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-12 19:30:00",
+      "exit_ts": "2025-02-12 20:40:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5968069539802666,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-13 17:00:00",
+      "exit_ts": "2025-02-13 20:43:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.3770357782549839,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-13 17:10:00",
+      "exit_ts": "2025-02-13 20:09:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.1968802232274617,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-02-21 10:35:00",
+      "exit_ts": "2025-02-21 10:41:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7717375625832191,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-27 16:35:00",
+      "exit_ts": "2025-02-27 19:34:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 0.9963310232367968,
+      "outcome": "TIME",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-02-27 16:35:00",
+      "exit_ts": "2025-02-27 22:34:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 0.7761924174479667,
+      "outcome": "TIME",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-02-27 17:15:00",
+      "exit_ts": "2025-02-27 21:39:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.3828922327514307,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-28 12:35:00",
+      "exit_ts": "2025-02-28 13:05:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.80020036224584,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-02-28 16:35:00",
+      "exit_ts": "2025-02-28 17:04:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7716577540106823,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-03 11:10:00",
+      "exit_ts": "2025-03-03 11:31:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.534764564636585,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-03 11:30:00",
+      "exit_ts": "2025-03-03 12:28:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.9030905294494476,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-04 17:15:00",
+      "exit_ts": "2025-03-04 17:16:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.4365537186803788,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-04 18:45:00",
+      "exit_ts": "2025-03-04 21:44:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 2.5021327147335453,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-03-04 18:45:00",
+      "exit_ts": "2025-03-04 21:46:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9502171310709604,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-03-05 17:55:00",
+      "exit_ts": "2025-03-05 18:34:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8281049757232669,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-03-06 10:25:00",
+      "exit_ts": "2025-03-06 16:26:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.82668131706514,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-06 16:35:00",
+      "exit_ts": "2025-03-06 18:29:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7036556603773613,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-06 17:30:00",
+      "exit_ts": "2025-03-06 17:40:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.6852217233010051,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-03-06 18:00:00",
+      "exit_ts": "2025-03-06 19:46:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.9124266323119488,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-03-07 16:10:00",
+      "exit_ts": "2025-03-07 17:40:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1514080618442992,
+      "outcome": "TP",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-07 17:55:00",
+      "exit_ts": "2025-03-07 18:30:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.15102949360044,
+      "outcome": "TP",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-11 11:30:00",
+      "exit_ts": "2025-03-11 12:17:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 2.192629828501755,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-12 10:35:00",
+      "exit_ts": "2025-03-12 14:12:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.8887662838162729,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-13 10:50:00",
+      "exit_ts": "2025-03-13 11:04:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7452590440535772,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-14 14:05:00",
+      "exit_ts": "2025-03-14 15:23:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.8597826086955908,
+      "outcome": "SL",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-03-17 15:35:00",
+      "exit_ts": "2025-03-17 15:35:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7230805131172813,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-03-19 11:25:00",
+      "exit_ts": "2025-03-19 17:24:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 2.0661824790093366,
+      "outcome": "TIME",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-03-20 16:50:00",
+      "exit_ts": "2025-03-20 17:00:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7158403022932298,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-03-21 11:05:00",
+      "exit_ts": "2025-03-21 11:22:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9326877364109908,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-03-25 12:55:00",
+      "exit_ts": "2025-03-25 12:56:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9455685615017326,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-27 10:55:00",
+      "exit_ts": "2025-03-27 14:04:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 3.1248050581013924,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-03-27 11:00:00",
+      "exit_ts": "2025-03-27 13:59:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 1.5234453837368165,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-03-28 17:25:00",
+      "exit_ts": "2025-03-28 18:20:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.8808080808081441,
+      "outcome": "SL",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-04-01 16:35:00",
+      "exit_ts": "2025-04-01 16:39:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7496541476439035,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-04-01 17:35:00",
+      "exit_ts": "2025-04-01 18:01:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9975955639035244,
+      "outcome": "TP",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-01 17:55:00",
+      "exit_ts": "2025-04-01 20:54:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.5086919939222653,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-02 16:45:00",
+      "exit_ts": "2025-04-02 16:46:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7479466141975272,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-04-03 20:30:00",
+      "exit_ts": "2025-04-03 20:31:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.6261789909850457,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-04 10:20:00",
+      "exit_ts": "2025-04-04 13:16:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7395590460848264,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-04 18:05:00",
+      "exit_ts": "2025-04-04 20:41:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.972698950472299,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-07 17:15:00",
+      "exit_ts": "2025-04-07 17:20:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5293212170217233,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-08 16:45:00",
+      "exit_ts": "2025-04-08 17:04:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.6950542179548462,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-04-09 10:45:00",
+      "exit_ts": "2025-04-09 10:49:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7796237047722235,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-09 15:00:00",
+      "exit_ts": "2025-04-09 16:55:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5156939764392138,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-04-09 18:00:00",
+      "exit_ts": "2025-04-09 19:15:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.014369721021834,
+      "outcome": "TP",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-09 20:25:00",
+      "exit_ts": "2025-04-09 23:24:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 2.0724307332241256,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-09 20:25:00",
+      "exit_ts": "2025-04-09 21:06:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.97309491740787,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-10 10:50:00",
+      "exit_ts": "2025-04-10 11:00:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9116479816279436,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-04-10 17:35:00",
+      "exit_ts": "2025-04-10 18:46:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8468372649572317,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-10 17:35:00",
+      "exit_ts": "2025-04-10 17:43:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.2940434007481587,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-11 10:25:00",
+      "exit_ts": "2025-04-11 16:24:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.7418733654597779,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-04-11 16:40:00",
+      "exit_ts": "2025-04-11 18:10:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.6745871711978519,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-04-11 18:10:00",
+      "exit_ts": "2025-04-14 00:12:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.2807861468933541,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-04-15 16:55:00",
+      "exit_ts": "2025-04-15 17:11:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7025143387096565,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-04-16 10:45:00",
+      "exit_ts": "2025-04-16 11:27:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5282914537342671,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-04-16 11:30:00",
+      "exit_ts": "2025-04-16 14:29:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.0931860891430887,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-22 10:35:00",
+      "exit_ts": "2025-04-22 10:45:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5271893742620835,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-04-23 10:35:00",
+      "exit_ts": "2025-04-23 13:34:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.3958936966816118,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-04-28 11:30:00",
+      "exit_ts": "2025-04-28 15:11:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7596066293842703,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-05-01 16:35:00",
+      "exit_ts": "2025-05-01 17:16:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.8729466553767835,
+      "outcome": "TP",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-02 16:30:00",
+      "exit_ts": "2025-05-02 16:39:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.8454076367389161,
+      "outcome": "SL",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-02 16:35:00",
+      "exit_ts": "2025-05-02 16:37:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.2680598555211714,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-02 17:10:00",
+      "exit_ts": "2025-05-02 17:26:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.4926946913978297,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-05-02 18:05:00",
+      "exit_ts": "2025-05-02 21:04:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.4858642552057119,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-05-02 18:05:00",
+      "exit_ts": "2025-05-02 22:41:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.7178248576291001,
+      "outcome": "TP",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-05-02 18:20:00",
+      "exit_ts": "2025-05-02 19:02:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9447934433783576,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-05-06 10:30:00",
+      "exit_ts": "2025-05-06 15:40:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.7176217120443067,
+      "outcome": "TP",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-06 17:30:00",
+      "exit_ts": "2025-05-06 20:47:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5560192510005812,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-05-07 11:55:00",
+      "exit_ts": "2025-05-07 12:16:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -1.0287096138715326,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-05-12 18:20:00",
+      "exit_ts": "2025-05-12 20:08:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9307022034702472,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-05-14 10:30:00",
+      "exit_ts": "2025-05-14 11:07:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.711459954541936,
+      "outcome": "TP",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-14 10:55:00",
+      "exit_ts": "2025-05-14 11:03:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7565807101093466,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-05-14 17:00:00",
+      "exit_ts": "2025-05-14 17:00:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.6223925931185623,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-05-14 17:55:00",
+      "exit_ts": "2025-05-14 19:41:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.957534260611787,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-05-14 17:55:00",
+      "exit_ts": "2025-05-14 19:41:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9876327037136856,
+      "outcome": "TP",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-05-14 18:00:00",
+      "exit_ts": "2025-05-14 20:59:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.135655730027542,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-05-19 10:30:00",
+      "exit_ts": "2025-05-19 16:00:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5322935130196114,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-19 17:25:00",
+      "exit_ts": "2025-05-19 18:22:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8862516758620689,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-05-21 14:20:00",
+      "exit_ts": "2025-05-21 14:31:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5515453545039589,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-22 10:25:00",
+      "exit_ts": "2025-05-22 11:10:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.6942827640985203,
+      "outcome": "TP",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-23 15:50:00",
+      "exit_ts": "2025-05-23 18:50:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.4656900539707211,
+      "outcome": "TIME",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-05-30 16:50:00",
+      "exit_ts": "2025-05-30 17:38:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7089325234425321,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-06-02 10:25:00",
+      "exit_ts": "2025-06-02 16:24:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.3653670442233859,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-02 16:35:00",
+      "exit_ts": "2025-06-02 17:00:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8653168884759217,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-06-04 17:55:00",
+      "exit_ts": "2025-06-04 18:14:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.4502230496503222,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-06-05 16:35:00",
+      "exit_ts": "2025-06-05 18:05:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.9029715762273665,
+      "outcome": "TP",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-12 17:35:00",
+      "exit_ts": "2025-06-12 18:04:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7040063256636535,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-06-12 18:05:00",
+      "exit_ts": "2025-06-12 21:22:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8879214153116253,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-06-17 12:00:00",
+      "exit_ts": "2025-06-17 13:19:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7822608894611075,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-06-17 16:35:00",
+      "exit_ts": "2025-06-17 17:26:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.8605211406095772,
+      "outcome": "TP",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-17 16:35:00",
+      "exit_ts": "2025-06-17 17:26:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1449360865289708,
+      "outcome": "TP",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-23 10:35:00",
+      "exit_ts": "2025-06-23 12:05:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 2.4653828079281954,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-06-24 10:35:00",
+      "exit_ts": "2025-06-24 11:23:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7624856701408194,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-06-24 11:25:00",
+      "exit_ts": "2025-06-24 17:24:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.8899862127371215,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-25 11:20:00",
+      "exit_ts": "2025-06-25 14:19:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 1.315002288006141,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-06-26 10:45:00",
+      "exit_ts": "2025-06-26 14:15:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5336229386891954,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-27 16:05:00",
+      "exit_ts": "2025-06-27 16:31:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1338345864661958,
+      "outcome": "TP",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-06-30 10:30:00",
+      "exit_ts": "2025-06-30 13:29:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.8488804737434001,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-01 16:35:00",
+      "exit_ts": "2025-07-01 16:49:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.867647053248979,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-07-01 17:10:00",
+      "exit_ts": "2025-07-01 18:04:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.6944997092060664,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-07-02 17:30:00",
+      "exit_ts": "2025-07-02 17:30:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5065543866637507,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-03 17:20:00",
+      "exit_ts": "2025-07-03 23:19:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.0242692487276399,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-07-07 10:40:00",
+      "exit_ts": "2025-07-07 11:25:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8077025310699827,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-07 12:25:00",
+      "exit_ts": "2025-07-07 12:55:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.8122257636249663,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-15 12:00:00",
+      "exit_ts": "2025-07-15 14:17:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 2.9403756999084765,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-07-21 11:35:00",
+      "exit_ts": "2025-07-21 12:03:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5415611235304228,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-07-21 16:40:00",
+      "exit_ts": "2025-07-21 17:00:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8503445889831476,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-07-22 18:20:00",
+      "exit_ts": "2025-07-22 18:22:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5662488298587044,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-22 19:05:00",
+      "exit_ts": "2025-07-22 22:04:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.1040246682231474,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-07-23 16:35:00",
+      "exit_ts": "2025-07-23 17:03:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8729088094059,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-07-23 18:00:00",
+      "exit_ts": "2025-07-23 20:59:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.8724472321543248,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-07-24 10:35:00",
+      "exit_ts": "2025-07-24 13:34:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 1.0985482095748151,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-25 16:50:00",
+      "exit_ts": "2025-07-25 19:40:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.4174758305283197,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-28 10:35:00",
+      "exit_ts": "2025-07-28 13:34:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 1.226005665905053,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-07-31 17:25:00",
+      "exit_ts": "2025-07-31 17:49:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5740084996929276,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-07-31 19:10:00",
+      "exit_ts": "2025-08-01 01:11:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.1802026686216896,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-08-01 15:40:00",
+      "exit_ts": "2025-08-01 15:44:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.8422670509125679,
+      "outcome": "SL",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-04 18:40:00",
+      "exit_ts": "2025-08-04 20:47:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5719756270241726,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-08-05 11:00:00",
+      "exit_ts": "2025-08-05 12:47:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 3.027983322049721,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-08-07 10:40:00",
+      "exit_ts": "2025-08-07 11:02:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.539836307814965,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-07 11:20:00",
+      "exit_ts": "2025-08-07 14:19:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.6429555375031698,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-08-11 11:20:00",
+      "exit_ts": "2025-08-11 13:18:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 2.9490496305125102,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-08-12 16:35:00",
+      "exit_ts": "2025-08-12 16:44:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.4296453149814855,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-12 16:35:00",
+      "exit_ts": "2025-08-12 16:44:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.698173636844914,
+      "outcome": "SL",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-13 10:25:00",
+      "exit_ts": "2025-08-13 16:24:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.4263719413294735,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-13 11:00:00",
+      "exit_ts": "2025-08-13 11:29:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.808187251716821,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-08-13 12:30:00",
+      "exit_ts": "2025-08-13 14:06:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.7340000822368278,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-08-13 16:35:00",
+      "exit_ts": "2025-08-13 16:52:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7774509803921559,
+      "outcome": "SL",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-15 11:05:00",
+      "exit_ts": "2025-08-15 15:26:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5439590953050819,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-19 16:35:00",
+      "exit_ts": "2025-08-19 18:59:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.8106431852984888,
+      "outcome": "TP",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-19 16:35:00",
+      "exit_ts": "2025-08-19 18:59:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1142419601836857,
+      "outcome": "TP",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-22 10:35:00",
+      "exit_ts": "2025-08-22 11:56:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.7588014239095442,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-08-22 17:15:00",
+      "exit_ts": "2025-08-22 17:16:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.8589417280643015,
+      "outcome": "SL",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-25 10:40:00",
+      "exit_ts": "2025-08-25 12:08:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.955985465325552,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-08-25 10:55:00",
+      "exit_ts": "2025-08-25 11:22:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.322407252327253,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-08-28 10:45:00",
+      "exit_ts": "2025-08-28 11:31:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5515516163903879,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-28 16:40:00",
+      "exit_ts": "2025-08-28 20:03:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.891369308943068,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-08-29 12:00:00",
+      "exit_ts": "2025-08-29 12:51:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -1.0457982989063872,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-08-29 17:40:00",
+      "exit_ts": "2025-08-29 17:52:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.09561091340446,
+      "outcome": "TP",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-08-29 18:10:00",
+      "exit_ts": "2025-08-29 21:09:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.0163766632549236,
+      "outcome": "TIME",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-09-02 17:30:00",
+      "exit_ts": "2025-09-02 17:32:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5363622259087968,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-09-03 11:10:00",
+      "exit_ts": "2025-09-03 15:20:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.8264642941125648,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-09-04 10:45:00",
+      "exit_ts": "2025-09-04 16:44:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.5382614526569467,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-09-05 11:10:00",
+      "exit_ts": "2025-09-05 15:30:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.6678814089219929,
+      "outcome": "TP",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-09-08 17:45:00",
+      "exit_ts": "2025-09-08 18:09:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8550651673386431,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-09-10 16:35:00",
+      "exit_ts": "2025-09-10 22:34:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.4866930171277182,
+      "outcome": "TIME",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-09-11 16:35:00",
+      "exit_ts": "2025-09-11 17:07:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.6908071748878557,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-09-12 10:30:00",
+      "exit_ts": "2025-09-12 11:03:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 2.122441958041991,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-09-15 11:05:00",
+      "exit_ts": "2025-09-15 17:04:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.0827166806772767,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-09-15 17:10:00",
+      "exit_ts": "2025-09-15 17:24:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7800538725763446,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-09-15 17:40:00",
+      "exit_ts": "2025-09-15 17:41:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7846848307030975,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-09-25 10:50:00",
+      "exit_ts": "2025-09-25 11:17:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.986830000000142,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-09-25 17:35:00",
+      "exit_ts": "2025-09-25 20:34:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.4273150563866745,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-09-26 16:35:00",
+      "exit_ts": "2025-09-26 17:02:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7381782945736753,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-09-30 11:05:00",
+      "exit_ts": "2025-09-30 17:04:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 0.1676734414909506,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-10-01 11:20:00",
+      "exit_ts": "2025-10-01 12:50:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5382111764705577,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-10-02 17:50:00",
+      "exit_ts": "2025-10-02 23:49:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.725080589233954,
+      "outcome": "TIME",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-10-09 18:00:00",
+      "exit_ts": "2025-10-10 00:01:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.300389192072155,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-14 17:30:00",
+      "exit_ts": "2025-10-14 18:01:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8720372017573305,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-16 10:45:00",
+      "exit_ts": "2025-10-16 11:44:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 3.0102192857143217,
+      "outcome": "TP",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-10-16 11:00:00",
+      "exit_ts": "2025-10-16 16:59:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.2827532481060738,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-10-17 10:25:00",
+      "exit_ts": "2025-10-17 13:24:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.453003088361369,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-10-17 19:10:00",
+      "exit_ts": "2025-10-20 00:58:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5960748373303557,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-17 20:10:00",
+      "exit_ts": "2025-10-17 23:09:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.4036210338680557,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-21 18:10:00",
+      "exit_ts": "2025-10-22 00:11:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.0203999373520721,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-21 19:05:00",
+      "exit_ts": "2025-10-21 19:53:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9058559623818362,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-22 10:10:00",
+      "exit_ts": "2025-10-22 11:14:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.883795353751056,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-10-24 10:35:00",
+      "exit_ts": "2025-10-24 10:54:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9449173577502024,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-10-24 15:40:00",
+      "exit_ts": "2025-10-24 17:53:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1065817409766874,
+      "outcome": "TP",
+      "engine": "E1_SHORT"
+    },
+    {
+      "entry_ts": "2025-10-27 10:30:00",
+      "exit_ts": "2025-10-27 16:29:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.9634414013358008,
+      "outcome": "TIME",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-10-28 16:10:00",
+      "exit_ts": "2025-10-28 16:14:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7504092681160722,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-10-28 16:40:00",
+      "exit_ts": "2025-10-28 16:41:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7489637999999011,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-10-29 10:40:00",
+      "exit_ts": "2025-10-29 15:25:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -1.0347519150872289,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-10-29 11:05:00",
+      "exit_ts": "2025-10-29 14:04:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.1450742520190238,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-10-30 18:05:00",
+      "exit_ts": "2025-10-30 18:19:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5794768439107927,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-10-31 10:40:00",
+      "exit_ts": "2025-10-31 12:38:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.759756817500638,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-04 10:30:00",
+      "exit_ts": "2025-11-04 11:51:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7996878796681021,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-04 17:00:00",
+      "exit_ts": "2025-11-04 17:34:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.4237534155409002,
+      "outcome": "SL",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-04 17:05:00",
+      "exit_ts": "2025-11-04 19:51:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7420282229538556,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-11-04 17:35:00",
+      "exit_ts": "2025-11-04 17:39:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.8385510022595477,
+      "outcome": "TP",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-04 18:40:00",
+      "exit_ts": "2025-11-04 19:40:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8931304514363956,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-06 14:40:00",
+      "exit_ts": "2025-11-06 15:30:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.505321686604225,
+      "outcome": "TP",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-11-07 17:10:00",
+      "exit_ts": "2025-11-07 17:44:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.8620370362942389,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-10 10:25:00",
+      "exit_ts": "2025-11-10 13:24:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.6813741796124354,
+      "outcome": "TIME",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-11 18:20:00",
+      "exit_ts": "2025-11-12 00:21:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.003863881496809,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-12 11:05:00",
+      "exit_ts": "2025-11-12 14:33:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9383442857142148,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-11-13 10:55:00",
+      "exit_ts": "2025-11-13 11:11:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7917827767241646,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-14 16:35:00",
+      "exit_ts": "2025-11-14 17:01:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.1228650137740397,
+      "outcome": "TP",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-11-14 16:35:00",
+      "exit_ts": "2025-11-14 17:01:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.824655647382814,
+      "outcome": "TP",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-11-14 16:50:00",
+      "exit_ts": "2025-11-14 17:00:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7061444519999999,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-11-14 17:40:00",
+      "exit_ts": "2025-11-14 23:39:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.2727231806868445,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-14 18:15:00",
+      "exit_ts": "2025-11-14 21:14:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.2707123644684872,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-19 17:45:00",
+      "exit_ts": "2025-11-19 17:56:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.6315291922738273,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-19 18:25:00",
+      "exit_ts": "2025-11-19 21:42:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9054187815656926,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-20 16:35:00",
+      "exit_ts": "2025-11-20 22:34:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 0.9594959495948786,
+      "outcome": "TIME",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-11-20 17:15:00",
+      "exit_ts": "2025-11-20 18:04:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.5642779482790141,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-21 16:35:00",
+      "exit_ts": "2025-11-21 16:49:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.843092324064228,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-11-21 17:45:00",
+      "exit_ts": "2025-11-21 19:24:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.991982902016856,
+      "outcome": "TP",
+      "engine": "NY_LONDON_SWEEP_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-11-25 11:15:00",
+      "exit_ts": "2025-11-25 17:14:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.3797239214569352,
+      "outcome": "TIME",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-11-25 18:50:00",
+      "exit_ts": "2025-11-25 19:00:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.6003801944629935,
+      "outcome": "SL",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-11-28 16:35:00",
+      "exit_ts": "2025-11-28 16:42:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7613645581654479,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-12-01 10:40:00",
+      "exit_ts": "2025-12-01 11:45:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.7717838369904905,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-12-01 17:15:00",
+      "exit_ts": "2025-12-01 17:40:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7367516821773479,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-12-01 17:45:00",
+      "exit_ts": "2025-12-01 18:17:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.7354042471909168,
+      "outcome": "SL",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-12-03 17:05:00",
+      "exit_ts": "2025-12-03 17:24:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.8756135120120951,
+      "outcome": "TP",
+      "engine": "USDV2_M2"
+    },
+    {
+      "entry_ts": "2025-12-04 16:35:00",
+      "exit_ts": "2025-12-04 18:37:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 1.8244827586205663,
+      "outcome": "TP",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-04 18:40:00",
+      "exit_ts": "2025-12-04 22:51:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.8865643423482736,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-12-11 11:10:00",
+      "exit_ts": "2025-12-11 11:34:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.996012800569249,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-12-11 18:00:00",
+      "exit_ts": "2025-12-11 21:57:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9231915778643583,
+      "outcome": "TP",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-12-15 11:05:00",
+      "exit_ts": "2025-12-15 16:00:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5498657364787397,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-16 10:40:00",
+      "exit_ts": "2025-12-16 11:30:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 1.820059377593372,
+      "outcome": "TP",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-12-16 10:55:00",
+      "exit_ts": "2025-12-16 15:30:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": 1.67556927486388,
+      "outcome": "TP",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-18 11:25:00",
+      "exit_ts": "2025-12-18 13:02:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9164787728090412,
+      "outcome": "SL",
+      "engine": "LONDON_OR_FALSE_REV_LONG"
+    },
+    {
+      "entry_ts": "2025-12-18 16:35:00",
+      "exit_ts": "2025-12-18 22:34:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": 0.7015956020379788,
+      "outcome": "TIME",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-19 16:35:00",
+      "exit_ts": "2025-12-19 16:37:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7889312977097881,
+      "outcome": "SL",
+      "engine": "ASIA_SWEEP_EXPANSION_FVG_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-19 17:15:00",
+      "exit_ts": "2025-12-19 23:14:00",
+      "symbol": "USDJPY",
+      "side": "LONG",
+      "portfolio_r": 0.4707676500031764,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-12-19 18:10:00",
+      "exit_ts": "2025-12-19 21:09:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": 0.9285428625191824,
+      "outcome": "TIME",
+      "engine": "NY_OR30_BREAK_CONT_LONG"
+    },
+    {
+      "entry_ts": "2025-12-23 10:05:00",
+      "exit_ts": "2025-12-23 11:00:00",
+      "symbol": "GBPJPY",
+      "side": "LONG",
+      "portfolio_r": -0.9479415034347416,
+      "outcome": "SL",
+      "engine": "LONDON_SWEEP_EXPANSION_LONG_V7"
+    },
+    {
+      "entry_ts": "2025-12-23 11:05:00",
+      "exit_ts": "2025-12-23 11:27:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.539912962962985,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-23 16:35:00",
+      "exit_ts": "2025-12-23 16:38:00",
+      "symbol": "EURUSD",
+      "side": "SHORT",
+      "portfolio_r": -0.7778089887640357,
+      "outcome": "SL",
+      "engine": "E2_SHORT"
+    },
+    {
+      "entry_ts": "2025-12-24 11:05:00",
+      "exit_ts": "2025-12-24 11:29:00",
+      "symbol": "USDJPY",
+      "side": "SHORT",
+      "portfolio_r": -0.5484300677871465,
+      "outcome": "SL",
+      "engine": "LONDON_OR_BREAK_CONT_SHORT"
+    }
+  ],
+  "all_reference": {
+    "trades": 692,
+    "net_r": 189.1767604843042,
+    "pf": 1.8105644473089193,
+    "max_dd_r": 12.630074095369526,
+    "positive_rate": 0.49710982658959535
+  }
+}

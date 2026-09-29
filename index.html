@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#050505" />
   <title>FX Sniper — Trading, který má data</title>
-  <meta name="description" content="FX Sniper — data-driven trading project. Transparentně, bez hype." />
+  <meta name="description" content="FX Sniper — trading research, live monitoring a historické výsledky." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,10 +21,10 @@
     <nav class="nav" aria-label="Hlavní navigace">
       <a href="#about">Projekt</a>
       <a href="#how">Jak funguje</a>
-      <a href="#models">Modely</a>
+      <a href="#models">Moduly</a>
       <a href="#results">Výsledky</a>
     </nav>
-    <a class="nav-cta" href="#join">Přístup <span>↗</span></a>
+    <a class="nav-cta" href="#join">Kontakt <span>↗</span></a>
   </header>
 
   <main>
@@ -41,8 +41,8 @@
           <span>Věř datům.</span>
         </h1>
         <p class="lead">
-          Tradingový systém postavený kolem dat, filtrace a disciplíny.
-          Žádný chaos. Žádné náhodné vstupy. Jen proces, který umíme měřit.
+          Tradingový systém postavený na datech, filtraci a řízení rizika.
+          Když podmínky nesedí, obchod prostě není.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary magnetic" href="#about">Prozkoumat projekt <span>↓</span></a>
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <div class="hero-stats reveal delay-1" aria-label="Rychlé statistiky">
+      <div class="hero-stats reveal delay-1" aria-label="Rychlé informace">
         <div class="stat"><strong>24/7</strong><span>monitoring trhu</span></div>
         <div class="stat"><strong>DATA</strong><span>místo pocitů</span></div>
         <div class="stat"><strong>R</strong><span>risk-first přístup</span></div>
@@ -66,11 +66,11 @@
       </div>
       <div class="section-copy reveal">
         <p>
-          FX Sniper není „jeden indikátor, který všechno vyřeší“. Je to vícevrstvý systém,
-          který odděluje kvalitní situace od šumu a pracuje s předem definovaným rizikem.
+          FX Sniper stavíme jako systém, ne jako signálovou loterii.
+          Každý setup musí projít přes data, kontext trhu a předem daný risk.
         </p>
         <p class="microcopy">
-          Cílem není trefit každý pohyb. Cílem je konzistentně vybírat jen situace, které projdou pravidly.
+          Nejde o to být v trhu pořád. Jde o to poznat, kdy má smysl vůbec něco dělat.
         </p>
       </div>
     </section>
@@ -78,119 +78,182 @@
     <section class="section process" id="how">
       <div class="section-head reveal">
         <div class="section-kicker">02 / JAK TO FUNGUJE</div>
-        <h2>Od trhu k signálu.<br><span class="muted">Bez magie.</span></h2>
+        <h2>Od trhu k signálu.<br><span class="muted">Bez zkratek.</span></h2>
       </div>
 
       <div class="steps">
         <article class="step reveal">
           <div class="step-no">01</div>
           <div class="step-line"></div>
-          <h3>Čistá data</h3>
-          <p>Trh nejdřív čteme přes cenu, volatilitu, čas a kontext. Bez dat nevzniká rozhodnutí.</p>
+          <h3>Data</h3>
+          <p>Bot pracuje s uzavřenými tržními daty, časem, volatilitou a kontextem jednotlivých sessions.</p>
           <div class="step-tag">MARKET INPUT</div>
         </article>
         <article class="step reveal delay-1">
           <div class="step-no">02</div>
           <div class="step-line"></div>
-          <h3>Filtrace</h3>
-          <p>Slabé setupy odpadají. Systém čeká na konkrétní kombinaci podmínek místo honění pohybu.</p>
-          <div class="step-tag">FILTER ENGINE</div>
+          <h3>Enginy</h3>
+          <p>Každý engine hledá jen situaci, pro kterou byl vytvořen. Když pravidla nesedí, nic neposílá.</p>
+          <div class="step-tag">SIGNAL ENGINE</div>
         </article>
         <article class="step reveal delay-2">
           <div class="step-no">03</div>
           <div class="step-line"></div>
-          <h3>Risk & výstup</h3>
-          <p>Každý obchod má definovaný scénář. Sledujeme výsledek v R, ne jen náhodný počet pipů.</p>
-          <div class="step-tag">EXECUTION LOGIC</div>
+          <h3>Risk</h3>
+          <p>Signál ještě projde společným risk managerem. Až potom vznikne přijatý obchod a výstup.</p>
+          <div class="step-tag">PORTFOLIO RISK</div>
         </article>
       </div>
     </section>
 
     <section class="section models" id="models">
       <div class="section-head reveal">
-        <div class="section-kicker">03 / MODELY</div>
-        <h2>Jeden framework.<br><span class="muted">Více trhů.</span></h2>
+        <div class="section-kicker">03 / MODULY</div>
+        <h2>Stejný projekt.<br><span class="muted">Tři větve.</span></h2>
       </div>
 
       <div class="model-grid">
         <article class="model-card reveal">
-          <div class="model-top"><span>FX / CORE</span><span class="live-pill">LIVE</span></div>
-          <h3>FX Sniper</h3>
-          <p>Hlavní model zaměřený na vybrané forexové páry a přesně definované obchodní situace.</p>
+          <div class="model-top"><span>FX / ORIGINAL</span><span class="live-pill">LIVE</span></div>
+          <h3>V9</h3>
+          <p>Původní live systém FX Sniperu. Sleduje hlavní forexové páry a pracuje s oddělenými pravidly pro konkrétní obchodní situace.</p>
+          <div class="model-meta"><span>474 trades</span><b>+133.20R</b></div>
           <div class="model-visual bars" aria-hidden="true">
             <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
           </div>
         </article>
 
         <article class="model-card reveal delay-1">
-          <div class="model-top"><span>GOLD / SPECIALIST</span><span class="soon-pill">R&D</span></div>
-          <h3>Gold Sniper</h3>
-          <p>Samostatný přístup pro zlato. Jiný trh, jiná volatilita, vlastní pravidla.</p>
+          <div class="model-top"><span>FX / NEXT GEN</span><span class="test-pill">LIVE / TESTING</span></div>
+          <h3>V10</h3>
+          <p>Nejnovější generace systému. Jedenáct samostatných FX engineů, společný portfolio risk manager a forward paper provoz.</p>
+          <div class="model-meta"><span>692 accepted</span><b>+189.18R</b></div>
           <div class="model-visual wave" aria-hidden="true">
-            <svg viewBox="0 0 600 140" preserveAspectRatio="none"><path d="M0,90 C70,50 120,110 180,76 C250,36 285,120 350,68 C410,22 470,98 600,40" /></svg>
+            <svg viewBox="0 0 600 140" preserveAspectRatio="none"><path d="M0,92 C70,60 105,112 168,76 C232,40 286,116 350,68 C420,24 468,98 600,38" /></svg>
           </div>
         </article>
 
-        <article class="model-card reveal delay-2">
-          <div class="model-top"><span>INDICES / RESEARCH</span><span class="soon-pill">LAB</span></div>
-          <h3>Index Lab</h3>
-          <p>Výzkum NASDAQ, GER40, JPN225 a dalších trhů s odděleným backtestem a validací.</p>
-          <div class="model-visual dots" aria-hidden="true"></div>
-        </article>
+        <div class="nasdaq-wrap reveal delay-2">
+          <div class="coming-ribbon" aria-hidden="true">JIŽ BRZY</div>
+          <article class="model-card nasdaq-card">
+            <div class="model-top"><span>NASDAQ / RESEARCH</span><span class="soon-pill">RESEARCH</span></div>
+            <h3>NASDAQ</h3>
+            <p>Samostatná indexová větev. Vlastní data, vlastní pravidla a oddělená validace od forexové části projektu.</p>
+            <div class="model-visual dots" aria-hidden="true"></div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section proof" id="results">
       <div class="proof-glow" aria-hidden="true"></div>
       <div class="proof-copy reveal">
-        <div class="section-kicker">04 / HISTORICAL PROOF</div>
-        <h2>Výsledky necháme<br><span class="lime">mluvit zvlášť.</span></h2>
+        <div class="section-kicker">04 / HISTORICKÉ VÝSLEDKY</div>
+        <h2>Výsledky.<br><span class="lime">Bez omáčky.</span></h2>
         <p>
-          Tohle je připravené jako samostatná část webu. Zachováme funkci, kterou už máš:
-          náhodný výběr historického období, výsledné R a seznam obchodů.
+          Souhrnné metriky a konkrétní obchody na jednom místě. Vše v R, aby šlo porovnávat výsledek bez ohledu na velikost účtu.
         </p>
-        <a class="btn btn-ghost disabled" href="#" aria-disabled="true">Results module / další krok</a>
-      </div>
-      <div class="proof-panel reveal delay-1">
-        <div class="proof-head"><span>RANDOM HISTORICAL WINDOW</span><span class="status-dot"></span></div>
-        <div class="fake-date">09. 09. 2024 — 15. 09. 2024</div>
-        <div class="fake-r">+5.44R</div>
-        <div class="fake-stats">
-          <span><b>4</b> OBCHODY</span>
-          <span><b>3</b> PLUSOVÉ</span>
-          <span><b>1</b> MÍNUSOVÝ</span>
+        <div class="result-tabs" role="tablist" aria-label="Přepínač výsledků">
+          <button class="result-tab active" type="button" data-result-view="summary" role="tab" aria-selected="true">Celý rok</button>
+          <button class="result-tab" type="button" data-result-view="week" role="tab" aria-selected="false">Náhodný týden</button>
         </div>
-        <div class="fake-row"><span>ST&nbsp;&nbsp; USDJPY</span><span>LONG</span><b>+2.83R</b></div>
-        <div class="fake-row"><span>ČT&nbsp;&nbsp; EURUSD</span><span>SHORT</span><b class="red">−1.10R</b></div>
-        <div class="fake-row"><span>ČT&nbsp;&nbsp; USDJPY</span><span>LONG</span><b>+2.83R</b></div>
-        <div class="fake-row"><span>PÁ&nbsp;&nbsp; EURUSD</span><span>SHORT</span><b>+0.89R</b></div>
       </div>
-    </section>
 
-    <section class="section manifesto" id="vision">
-      <div class="ticker" aria-hidden="true">
-        <div>DATA FIRST — RISK FIRST — NO HYPE — VERIFY EVERYTHING — </div>
-        <div>DATA FIRST — RISK FIRST — NO HYPE — VERIFY EVERYTHING — </div>
-      </div>
-      <div class="manifesto-inner reveal">
-        <div class="section-kicker">05 / PRINCIP</div>
-        <h2>Nechceme vypadat<br>jako trading projekt.<br><span class="lime">Chceme ho dokázat.</span></h2>
+      <div class="proof-panel reveal delay-1" id="results-panel">
+        <div class="result-view active" data-view="summary">
+          <div class="proof-head"><span>V10 / CELÝ ROK <b id="result-year">2025</b></span><span class="status-dot"></span></div>
+          <div class="summary-main">
+            <div>
+              <span class="metric-label">NET RESULT</span>
+              <div class="fake-r" id="year-net">+69.97R</div>
+            </div>
+            <div class="summary-badge"><span class="summary-count" id="year-trades">259</span><br><span>OBCHODŮ</span></div>
+          </div>
+
+          <div class="summary-grid">
+            <div><span>PROFIT FACTOR</span><b id="year-pf">1.79</b></div>
+            <div><span>MAX DRAWDOWN</span><b id="year-dd">6.35R</b></div>
+            <div><span>PLUSOVÝCH</span><b id="year-positive">48.65%</b></div>
+          </div>
+
+          <div class="year-chart-wrap">
+            <div class="chart-caption"><span>VÝVOJ PORTFOLIA</span><span>2025 / R</span></div>
+            <div class="year-chart" aria-label="Kumulativní vývoj portfolia v roce 2025">
+              <svg viewBox="0 0 600 180" preserveAspectRatio="none" role="img" aria-label="Equity V10 2025">
+                <path class="chart-grid" d="M0 45H600 M0 90H600 M0 135H600"></path>
+                <polyline id="year-equity-line" points=""></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <div class="pair-results" id="pair-results" aria-label="Výsledky podle měnového páru">
+            <article class="pair-result" data-symbol="EURUSD">
+              <div class="pair-result-head"><span>EURUSD</span><b class="pair-net">+15.26R</b></div>
+              <svg viewBox="0 0 180 52" preserveAspectRatio="none"><polyline class="pair-line" points=""></polyline></svg>
+              <div class="pair-meta"><span class="pair-trades">40 obchodů</span><span class="pair-pf">PF 2.19</span></div>
+            </article>
+            <article class="pair-result" data-symbol="GBPJPY">
+              <div class="pair-result-head"><span>GBPJPY</span><b class="pair-net">+30.92R</b></div>
+              <svg viewBox="0 0 180 52" preserveAspectRatio="none"><polyline class="pair-line" points=""></polyline></svg>
+              <div class="pair-meta"><span class="pair-trades">88 obchodů</span><span class="pair-pf">PF 1.99</span></div>
+            </article>
+            <article class="pair-result" data-symbol="USDJPY">
+              <div class="pair-result-head"><span>USDJPY</span><b class="pair-net">+23.80R</b></div>
+              <svg viewBox="0 0 180 52" preserveAspectRatio="none"><polyline class="pair-line" points=""></polyline></svg>
+              <div class="pair-meta"><span class="pair-trades">131 obchodů</span><span class="pair-pf">PF 1.53</span></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="result-view" data-view="week">
+          <div class="proof-head"><span>V10 / NÁHODNÝ TÝDEN</span><span class="status-dot"></span></div>
+          <div class="week-head">
+            <div>
+              <span class="metric-label" id="week-range">VYBÍRÁM TÝDEN…</span>
+              <div class="week-r" id="week-net">—</div>
+            </div>
+            <button class="shuffle-week" type="button" id="shuffle-week">Vylosovat týden ↻</button>
+          </div>
+          <div class="week-chart" aria-label="Kumulativní vývoj vybraného týdne">
+            <svg viewBox="0 0 600 180" preserveAspectRatio="none" role="img" aria-label="Equity vybraného týdne">
+              <path class="chart-grid" d="M0 45H600 M0 90H600 M0 135H600"></path>
+              <polyline id="week-equity-line" points=""></polyline>
+            </svg>
+          </div>
+          <div class="fake-stats week-stats">
+            <span><b id="week-trades-count">—</b> OBCHODŮ</span>
+            <span><b id="week-positive-count">—</b> PLUSOVÝCH</span>
+            <span><b id="week-negative-count">—</b> MÍNUSOVÝCH</span>
+          </div>
+          <div class="week-trades" id="week-trades"></div>
+        </div>
       </div>
     </section>
 
     <section class="section join" id="join">
       <div class="join-card reveal">
-        <span class="section-kicker">06 / FX SNIPER</span>
-        <h2>Připraven vidět<br><span class="muted">víc než screenshot?</span></h2>
-        <p>Další krok může být login / přístup do komunity / výsledky / pricing — podle toho, co chceš na web napojit.</p>
-        <a class="btn btn-primary magnetic" href="mailto:fxsniper@example.com">Kontaktovat FX Sniper <span>↗</span></a>
+        <div class="join-copy">
+          <span class="section-kicker">05 / KONTAKT</span>
+          <h2><span class="muted">Připraven vidět</span><br>víc než screenshot?</h2>
+          <p>Zanech e-mail. Jakmile bude dávat smysl další krok, ozveme se přímo.</p>
+        </div>
+        <form class="lead-form" id="lead-form" novalidate>
+          <label for="lead-email">E-mail</label>
+          <div class="lead-row">
+            <input id="lead-email" name="email" type="email" autocomplete="email" placeholder="tvuj@email.cz" required />
+            <button class="btn btn-primary" id="lead-submit" type="submit">Mám zájem <span>↗</span></button>
+          </div>
+          <input class="form-honey" id="lead-honey" name="_honey" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <p class="form-note">Stačí e-mail. Ozveme se přímo.</p>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer>
     <a class="brand" href="#home"><span class="brand-mark"></span><span>FX SNIPER</span></a>
-    <p>© 2026 FX Sniper. Research & historical results are not a guarantee of future performance.</p>
+    <p>© 2026 FX Sniper. Historické výsledky nejsou zárukou budoucí výkonnosti.</p>
     <a href="#home">Nahoru ↑</a>
   </footer>
 
