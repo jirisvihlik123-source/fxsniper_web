@@ -296,7 +296,7 @@ if (leadForm && formStatus) {
     const honey = document.getElementById('lead-honey').value.trim();
     if (honey) return;
 
-    if (!email || !/^\\S+@\\S+\\.\\S+$/.test(email)) {
+    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
       formStatus.textContent = 'Zadej platný e-mail.';
       formStatus.className = 'form-status error';
       return;
