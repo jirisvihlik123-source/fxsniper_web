@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050505" />
+  <title>FX Sniper — Trading, který má data</title>
+  <meta name="description" content="FX Sniper — data-driven trading project. Transparentně, bez hype." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="FX Sniper domů">
+      <span class="brand-mark"></span>
+      <span>FX SNIPER</span>
+    </a>
+    <nav class="nav" aria-label="Hlavní navigace">
+      <a href="#about">Projekt</a>
+      <a href="#how">Jak funguje</a>
+      <a href="#models">Modely</a>
+      <a href="#results">Výsledky</a>
+    </nav>
+    <a class="nav-cta" href="#join">Přístup <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-a" aria-hidden="true"></div>
+      <div class="hero-orb orb-b" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> FX SNIPER / LIVE PROJECT</div>
+        <h1>
+          <span>Nevěř</span>
+          <span class="muted">slibům.</span>
+          <span>Věř datům.</span>
+        </h1>
+        <p class="lead">
+          Tradingový systém postavený kolem dat, filtrace a disciplíny.
+          Žádný chaos. Žádné náhodné vstupy. Jen proces, který umíme měřit.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="#about">Prozkoumat projekt <span>↓</span></a>
+          <a class="btn btn-ghost magnetic" href="#results">Historické výsledky</a>
+        </div>
+      </div>
+
+      <div class="hero-stats reveal delay-1" aria-label="Rychlé statistiky">
+        <div class="stat"><strong>24/7</strong><span>monitoring trhu</span></div>
+        <div class="stat"><strong>DATA</strong><span>místo pocitů</span></div>
+        <div class="stat"><strong>R</strong><span>risk-first přístup</span></div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span>SCROLL</div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-kicker reveal">01 / PROJEKT</div>
+      <div class="section-title reveal">
+        <h2>Trading bez<br><span class="muted">zbytečného šumu.</span></h2>
+      </div>
+      <div class="section-copy reveal">
+        <p>
+          FX Sniper není „jeden indikátor, který všechno vyřeší“. Je to vícevrstvý systém,
+          který odděluje kvalitní situace od šumu a pracuje s předem definovaným rizikem.
+        </p>
+        <p class="microcopy">
+          Cílem není trefit každý pohyb. Cílem je konzistentně vybírat jen situace, které projdou pravidly.
+        </p>
+      </div>
+    </section>
+
+    <section class="section process" id="how">
+      <div class="section-head reveal">
+        <div class="section-kicker">02 / JAK TO FUNGUJE</div>
+        <h2>Od trhu k signálu.<br><span class="muted">Bez magie.</span></h2>
+      </div>
+
+      <div class="steps">
+        <article class="step reveal">
+          <div class="step-no">01</div>
+          <div class="step-line"></div>
+          <h3>Čistá data</h3>
+          <p>Trh nejdřív čteme přes cenu, volatilitu, čas a kontext. Bez dat nevzniká rozhodnutí.</p>
+          <div class="step-tag">MARKET INPUT</div>
+        </article>
+        <article class="step reveal delay-1">
+          <div class="step-no">02</div>
+          <div class="step-line"></div>
+          <h3>Filtrace</h3>
+          <p>Slabé setupy odpadají. Systém čeká na konkrétní kombinaci podmínek místo honění pohybu.</p>
+          <div class="step-tag">FILTER ENGINE</div>
+        </article>
+        <article class="step reveal delay-2">
+          <div class="step-no">03</div>
+          <div class="step-line"></div>
+          <h3>Risk & výstup</h3>
+          <p>Každý obchod má definovaný scénář. Sledujeme výsledek v R, ne jen náhodný počet pipů.</p>
+          <div class="step-tag">EXECUTION LOGIC</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section models" id="models">
+      <div class="section-head reveal">
+        <div class="section-kicker">03 / MODELY</div>
+        <h2>Jeden framework.<br><span class="muted">Více trhů.</span></h2>
+      </div>
+
+      <div class="model-grid">
+        <article class="model-card reveal">
+          <div class="model-top"><span>FX / CORE</span><span class="live-pill">LIVE</span></div>
+          <h3>FX Sniper</h3>
+          <p>Hlavní model zaměřený na vybrané forexové páry a přesně definované obchodní situace.</p>
+          <div class="model-visual bars" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </article>
+
+        <article class="model-card reveal delay-1">
+          <div class="model-top"><span>GOLD / SPECIALIST</span><span class="soon-pill">R&D</span></div>
+          <h3>Gold Sniper</h3>
+          <p>Samostatný přístup pro zlato. Jiný trh, jiná volatilita, vlastní pravidla.</p>
+          <div class="model-visual wave" aria-hidden="true">
+            <svg viewBox="0 0 600 140" preserveAspectRatio="none"><path d="M0,90 C70,50 120,110 180,76 C250,36 285,120 350,68 C410,22 470,98 600,40" /></svg>
+          </div>
+        </article>
+
+        <article class="model-card reveal delay-2">
+          <div class="model-top"><span>INDICES / RESEARCH</span><span class="soon-pill">LAB</span></div>
+          <h3>Index Lab</h3>
+          <p>Výzkum NASDAQ, GER40, JPN225 a dalších trhů s odděleným backtestem a validací.</p>
+          <div class="model-visual dots" aria-hidden="true"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section proof" id="results">
+      <div class="proof-glow" aria-hidden="true"></div>
+      <div class="proof-copy reveal">
+        <div class="section-kicker">04 / HISTORICAL PROOF</div>
+        <h2>Výsledky necháme<br><span class="lime">mluvit zvlášť.</span></h2>
+        <p>
+          Tohle je připravené jako samostatná část webu. Zachováme funkci, kterou už máš:
+          náhodný výběr historického období, výsledné R a seznam obchodů.
+        </p>
+        <a class="btn btn-ghost disabled" href="#" aria-disabled="true">Results module / další krok</a>
+      </div>
+      <div class="proof-panel reveal delay-1">
+        <div class="proof-head"><span>RANDOM HISTORICAL WINDOW</span><span class="status-dot"></span></div>
+        <div class="fake-date">09. 09. 2024 — 15. 09. 2024</div>
+        <div class="fake-r">+5.44R</div>
+        <div class="fake-stats">
+          <span><b>4</b> OBCHODY</span>
+          <span><b>3</b> PLUSOVÉ</span>
+          <span><b>1</b> MÍNUSOVÝ</span>
+        </div>
+        <div class="fake-row"><span>ST&nbsp;&nbsp; USDJPY</span><span>LONG</span><b>+2.83R</b></div>
+        <div class="fake-row"><span>ČT&nbsp;&nbsp; EURUSD</span><span>SHORT</span><b class="red">−1.10R</b></div>
+        <div class="fake-row"><span>ČT&nbsp;&nbsp; USDJPY</span><span>LONG</span><b>+2.83R</b></div>
+        <div class="fake-row"><span>PÁ&nbsp;&nbsp; EURUSD</span><span>SHORT</span><b>+0.89R</b></div>
+      </div>
+    </section>
+
+    <section class="section manifesto" id="vision">
+      <div class="ticker" aria-hidden="true">
+        <div>DATA FIRST — RISK FIRST — NO HYPE — VERIFY EVERYTHING — </div>
+        <div>DATA FIRST — RISK FIRST — NO HYPE — VERIFY EVERYTHING — </div>
+      </div>
+      <div class="manifesto-inner reveal">
+        <div class="section-kicker">05 / PRINCIP</div>
+        <h2>Nechceme vypadat<br>jako trading projekt.<br><span class="lime">Chceme ho dokázat.</span></h2>
+      </div>
+    </section>
+
+    <section class="section join" id="join">
+      <div class="join-card reveal">
+        <span class="section-kicker">06 / FX SNIPER</span>
+        <h2>Připraven vidět<br><span class="muted">víc než screenshot?</span></h2>
+        <p>Další krok může být login / přístup do komunity / výsledky / pricing — podle toho, co chceš na web napojit.</p>
+        <a class="btn btn-primary magnetic" href="mailto:fxsniper@example.com">Kontaktovat FX Sniper <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home"><span class="brand-mark"></span><span>FX SNIPER</span></a>
+    <p>© 2026 FX Sniper. Research & historical results are not a guarantee of future performance.</p>
+    <a href="#home">Nahoru ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
