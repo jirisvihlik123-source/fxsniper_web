@@ -151,14 +151,8 @@ function buildWeekGroups(trades) {
 }
 
 function renderYearResults(data) {
-  const s = data.year_stats;
-  document.getElementById('result-year').textContent = data.year;
-  document.getElementById('year-net').textContent = fmtR(s.net_r);
-  document.getElementById('year-trades').textContent = s.trades;
-  document.getElementById('year-pf').textContent = s.pf.toFixed(2);
-  document.getElementById('year-dd').textContent = `${s.max_dd_r.toFixed(2)}R`;
-  document.getElementById('year-positive').textContent = fmtPct(s.positive_rate);
-
+  // The top summary is the V9/V10 project benchmark.
+  // The chart and pair breakdown below intentionally remain V10 / 2025.
   setPolyline('year-equity-line', data.trades.map((t) => t.portfolio_r));
 
   document.querySelectorAll('.pair-result').forEach((card) => {
