@@ -237,18 +237,15 @@
           <h2><span class="muted">Připraven vidět</span><br>víc než screenshot?</h2>
           <p>Zanech e-mail. Jakmile bude dávat smysl další krok, ozveme se přímo.</p>
         </div>
-        <form class="lead-form" id="lead-form" action="https://formsubmit.co/aifxsniper@gmail.com" method="POST">
+        <form class="lead-form" id="lead-form" novalidate>
           <label for="lead-email">E-mail</label>
           <div class="lead-row">
             <input id="lead-email" name="email" type="email" autocomplete="email" placeholder="tvuj@email.cz" required />
             <button class="btn btn-primary" id="lead-submit" type="submit">Mám zájem <span>↗</span></button>
           </div>
-          <input type="hidden" name="_subject" value="Nový zájem o FX Sniper" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_url" value="https://jirisvihlik123-source.github.io/fxsniper_web/" />
-          <input class="form-honey" name="_honey" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <input class="form-honey" id="lead-honey" name="_honey" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <p class="form-note">Stačí e-mail. Ozveme se přímo.</p>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
         </form>
       </div>
     </section>

@@ -243,4 +243,62 @@ loadResults();
 const shuffleWeek = document.getElementById('shuffle-week');
 if (shuffleWeek) shuffleWeek.addEventListener('click', chooseRandomWeek);
 
-// Contact form uses a native POST to FormSubmit for maximum GitHub Pages compatibility.
+// Lead form: static GitHub Pages -> email forwarding endpoint.
+// We keep the visitor on the site and show a readable fallback if the service is unavailable.
+const leadForm = document.getElementById('lead-form');
+const formStatus = document.getElementById('form-status');
+const leadSubmit = document.getElementById('lead-submit');
+
+if (leadForm && formStatus) {
+  leadForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const email = document.getElementById('lead-email').value.trim();
+    const honey = document.getElementById('lead-honey').value.trim();
+    if (honey) return;
+
+    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
+      formStatus.textContent = 'Zadej platný e-mail.';
+      formStatus.className = 'form-status error';
+      return;
+    }
+
+    formStatus.textContent = 'Odesílám…';
+    formStatus.className = 'form-status';
+    if (leadSubmit) leadSubmit.disabled = true;
+
+    const payload = new URLSearchParams({
+      _domain: window.location.hostname || 'jirisvihlik123-source.github.io',
+      _to: 'aifxsniper@gmail.com',
+      _subject: 'Nový zájem o FX Sniper',
+      _replyto: email,
+      email: email,
+      message: 'Návštěvník webu má zájem o FX Sniper a zanechal kontaktní e-mail.'
+    });
+
+    try {
+      const response = await fetch('https://api.formsubmit.cc/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+        body: payload.toString()
+      });
+
+      let data = {};
+      try { data = await response.json(); } catch (_) {}
+
+      if (!response.ok || data.error) {
+        throw new Error(data.error || `HTTP ${response.status}`);
+      }
+
+      leadForm.reset();
+      formStatus.textContent = 'Díky. E-mail jsme přijali a ozveme se.';
+      formStatus.className = 'form-status ok';
+    } catch (error) {
+      console.error('Lead submit failed:', error);
+      formStatus.innerHTML = 'Odeslání je teď nedostupné. <a href="mailto:aifxsniper@gmail.com?subject=Zájem%20o%20FX%20Sniper">Napiš nám přímo.</a>';
+      formStatus.className = 'form-status error';
+    } finally {
+      if (leadSubmit) leadSubmit.disabled = false;
+    }
+  });
+}
