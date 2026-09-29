@@ -177,17 +177,41 @@ function renderWeek(group) {
 
   setPolyline('week-equity-line', trades.map((t) => t.portfolio_r));
 
-  const host = document.getElementById('week-trades');
-  host.innerHTML = trades.map((trade) => {
+  // Show each calendar day only once. If more trades arrived that day,
+  // keep them inside the same day block instead of repeating the date.
+  const days = new Map();
+  trades.forEach((trade) => {
     const dt = new Date(trade.entry_ts.replace(' ', 'T'));
+    const key = isoDate(dt);
+    if (!days.has(key)) days.set(key, { date: dt, trades: [] });
+    days.get(key).trades.push(trade);
+  });
+
+  const host = document.getElementById('week-trades');
+  host.innerHTML = [...days.values()].map((day) => {
     const date = new Intl.DateTimeFormat('cs-CZ', { weekday: 'short', day: '2-digit', month: '2-digit' })
-      .format(dt)
-      .replace('.', '');
-    const positiveTrade = trade.portfolio_r >= 0;
-    return `<div class="fake-row">
-      <span>${date.toUpperCase()}&nbsp;&nbsp; ${trade.symbol}</span>
-      <span>${trade.side}</span>
-      <b class="${positiveTrade ? '' : 'red'}">${fmtR(trade.portfolio_r)}</b>
+      .format(day.date)
+      .replace('.', '')
+      .toUpperCase();
+    const count = day.trades.length;
+    const dailyNet = day.trades.reduce((sum, t) => sum + t.portfolio_r, 0);
+
+    const details = day.trades.map((trade) => {
+      const positiveTrade = trade.portfolio_r >= 0;
+      return `<div class="day-trade">
+        <span class="day-symbol">${trade.symbol}</span>
+        <span class="day-side">${trade.side}</span>
+        <b class="${positiveTrade ? '' : 'red'}">${fmtR(trade.portfolio_r)}</b>
+      </div>`;
+    }).join('');
+
+    return `<div class="day-group">
+      <div class="day-head">
+        <span class="day-date">${date}</span>
+        <span class="day-count">${count} ${count === 1 ? 'OBCHOD' : count < 5 ? 'OBCHODY' : 'OBCHODŮ'}</span>
+        <b class="day-total ${dailyNet < 0 ? 'red' : ''}">${fmtR(dailyNet)}</b>
+      </div>
+      <div class="day-details">${details}</div>
     </div>`;
   }).join('');
 }
@@ -219,59 +243,4 @@ loadResults();
 const shuffleWeek = document.getElementById('shuffle-week');
 if (shuffleWeek) shuffleWeek.addEventListener('click', chooseRandomWeek);
 
-// GitHub Pages is static. FormSubmit forwards the lead directly to
-// aifxsniper@gmail.com without requiring our own backend.
-const leadForm = document.getElementById('lead-form');
-const formStatus = document.getElementById('form-status');
-const leadSubmit = document.getElementById('lead-submit');
-
-if (leadForm && formStatus) {
-  leadForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    const email = leadForm.elements.email.value.trim();
-    const honey = leadForm.elements._honey.value.trim();
-
-    if (honey) return;
-
-    if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
-      formStatus.textContent = 'Zadej platný e-mail.';
-      formStatus.className = 'form-status error';
-      return;
-    }
-
-    formStatus.textContent = 'Odesílám…';
-    formStatus.className = 'form-status';
-    if (leadSubmit) leadSubmit.disabled = true;
-
-    try {
-      const response = await fetch('https://formsubmit.co/ajax/aifxsniper@gmail.com', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-          email,
-          _subject: 'Nový zájem o FX Sniper',
-          _template: 'table'
-        })
-      });
-
-      const data = await response.json();
-      if (!response.ok || data.success === false) {
-        throw new Error(data.message || 'Form submit failed');
-      }
-
-      leadForm.reset();
-      formStatus.textContent = 'Díky. Ozveme se na zadaný e-mail.';
-      formStatus.className = 'form-status ok';
-    } catch (error) {
-      console.error('Lead form failed:', error);
-      formStatus.textContent = 'Odeslání se nepovedlo. Zkus to prosím znovu.';
-      formStatus.className = 'form-status error';
-    } finally {
-      if (leadSubmit) leadSubmit.disabled = false;
-    }
-  });
-}
+// Contact form uses a native POST to FormSubmit for maximum GitHub Pages compatibility.
